@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Grocery Management System</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Grocery Management System</h1>
+
+<h2>Add Product</h2>
+
+<form id="productForm">
+
+<input type="text" id="name" placeholder="Product Name" required>
+
+<input type="number" id="price" placeholder="Price" required>
+
+<input type="number" id="quantity" placeholder="Quantity" required>
+
+<button type="submit">Save Product</button>
+
+</form>
+
+<h2>Product List</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+</thead>
+
+<tbody id="productTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
